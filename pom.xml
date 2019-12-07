@@ -34,4 +34,15 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>maven-release</id>
+        <url>${elease.url}</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <url>${snapshot.url}</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
